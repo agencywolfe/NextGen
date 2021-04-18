@@ -1,0 +1,13 @@
+2020-02-21T14:55:47+00:00 CRITICAL Uncaught Error: Call to undefined function ltbGetLocalPath() in C:\www\aql\wp-content\plugins\lt-booking\post-types.php:21
+Stack trace:
+#0 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_add_custom_post_types('')
+#1 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\www\aql\wp-settings.php(507): do_action('after_setup_the...')
+#4 C:\www\aql\wp-config.php(90): require_once('C:\\www\\aql\\wp-s...')
+#5 C:\www\aql\wp-load.php(37): require_once('C:\\www\\aql\\wp-c...')
+#6 C:\www\aql\wp-blog-header.php(13): require_once('C:\\www\\aql\\wp-l...')
+#7 C:\www\aql\index.php(17): require('C:\\www\\aql\\wp-b...')
+#8 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\post-types.php on line 21
+

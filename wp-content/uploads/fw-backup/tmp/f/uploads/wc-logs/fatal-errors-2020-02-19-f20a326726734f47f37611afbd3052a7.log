@@ -1,0 +1,60 @@
+2020-02-19T18:36:38+00:00 CRITICAL Uncaught Error: Call to undefined function ltb_the_price() in C:\www\aql\wp-content\plugins\lt-booking\sections\step-02.php:42
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_02_shortcode('', '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(20): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode('', '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking]')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking]')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.php(21): wpb_js_remove in C:\www\aql\wp-content\plugins\lt-booking\sections\step-02.php on line 42
+
+2020-02-19T18:49:11+00:00 CRITICAL Uncaught Error: Call to undefined function xexplode() in C:\www\aql\wp-content\plugins\lt-booking\sections\step-02.php:37
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_02_shortcode('', '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(20): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode('', '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking]')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking]')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.php(21): wpb_js_remove_wpau in C:\www\aql\wp-content\plugins\lt-booking\sections\step-02.php on line 37
+
+2020-02-19T19:51:53+00:00 CRITICAL Uncaught Error: Call to undefined function esc_htmk() in C:\www\aql\wp-content\plugins\lt-booking\sections\step-03.php:46
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_03_shortcode('', '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(21): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode('', '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking]')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking]')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.php(21): wpb_js_remove_wpau in C:\www\aql\wp-content\plugins\lt-booking\sections\step-03.php on line 46
+
+2020-02-19T19:52:04+00:00 CRITICAL Uncaught Error: Call to undefined function ltb_the_price() in C:\www\aql\wp-content\plugins\lt-booking\sections\step-03.php:55
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_03_shortcode('', '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(21): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode('', '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking]')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking]')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.php(21): wpb_js_remove in C:\www\aql\wp-content\plugins\lt-booking\sections\step-03.php on line 55
+
+2020-02-19T19:52:07+00:00 CRITICAL Uncaught Error: Call to undefined function ltb_the_price() in C:\www\aql\wp-content\plugins\lt-booking\sections\step-03.php:55
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_03_shortcode('', '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(21): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode('', '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking]')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking]')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.php(21): wpb_js_remove in C:\www\aql\wp-content\plugins\lt-booking\sections\step-03.php on line 55
+

@@ -1,0 +1,8 @@
+Version 1.02 (2020.13.03)
+- Mail Sending function for clients fix
+- Tariffs and Cars links fix
+- Data formats for input fields fix
+- Tariff admin label added
+
+Version 1.01 (2020.03.03)
+- Minor bug fixes

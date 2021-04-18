@@ -1,0 +1,43 @@
+2020-02-23T13:35:53+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 180
+
+2020-02-23T13:35:53+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 180
+
+2020-02-23T14:19:19+00:00 CRITICAL syntax error, unexpected '/', expecting ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 128
+
+2020-02-23T14:19:19+00:00 CRITICAL syntax error, unexpected '/', expecting ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 128
+
+2020-02-23T14:19:20+00:00 CRITICAL syntax error, unexpected '/', expecting ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 128
+
+2020-02-23T16:42:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_total_grid(), 0 passed in C:\www\aql\wp-content\plugins\lt-booking\sections\step-05.php on line 20 and exactly 1 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:306
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\sections\step-05.php(20): ltb_the_total_grid()
+#1 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_05_shortcode(Array, '', 'lt-booking-step...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#4 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(25): do_shortcode('[lt-booking-ste...')
+#5 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-bo in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 306
+
+2020-02-23T16:51:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_form(), 0 passed in C:\www\aql\wp-content\plugins\lt-booking\sections\step-05.php on line 32 and exactly 1 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:355
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\sections\step-05.php(32): ltb_the_form()
+#1 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_05_shortcode(Array, '', 'lt-booking-step...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#4 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(25): do_shortcode('[lt-booking-ste...')
+#5 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=... in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 355
+
+2020-02-23T16:52:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_form(), 0 passed in C:\www\aql\wp-content\plugins\lt-booking\sections\step-05.php on line 26 and exactly 1 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:355
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\sections\step-05.php(26): ltb_the_form()
+#1 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_05_shortcode(Array, '', 'lt-booking-step...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#4 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(25): do_shortcode('[lt-booking-ste...')
+#5 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=... in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 355
+

@@ -1,0 +1,79 @@
+2020-02-17T17:47:33+00:00 CRITICAL Uncaught Error: Call to undefined function fw() in C:\www\aql\wp-content\themes\aqualine\inc\hooks.php:361
+Stack trace:
+#0 C:\www\aql\wp-content\themes\aqualine\inc\init.php(114): include()
+#1 C:\www\aql\wp-content\themes\aqualine\inc\init.php(130): aqualine_Theme_Includes::include_isolated('C:\\www\\aql/wp-c...')
+#2 C:\www\aql\wp-content\themes\aqualine\inc\init.php(28): aqualine_Theme_Includes::include_child_first('/hooks.php')
+#3 C:\www\aql\wp-content\themes\aqualine\inc\init.php(152): aqualine_Theme_Includes::init()
+#4 C:\www\aql\wp-content\themes\aqualine\functions.php(6): require_once('C:\\www\\aql\\wp-c...')
+#5 C:\www\aql\wp-settings.php(497): include('C:\\www\\aql\\wp-c...')
+#6 C:\www\aql\wp-config.php(90): require_once('C:\\www\\aql\\wp-s...')
+#7 C:\www\aql\wp-load.php(37): require_once('C:\\www\\aql\\wp-c...')
+#8 C:\www\aql\wp-blog-header.php(13): require_once('C:\\www\\aql\\wp-l...')
+#9 C:\www\aql\index.php(17): require('C:\\www\\aql\\wp-b...')
+#10 {main}
+  thrown in C:\www\aql\wp-content\themes\aqualine\inc\hooks.php on line 361
+
+2020-02-17T18:54:28+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to fw_extract_only_options() must be of the type array, null given, called in C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php on line 176 and defined in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php:810
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php(176): fw_extract_only_options(NULL)
+#1 C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php(228): FW_Db_Options_Model->get(10309, 'theme_block', NULL)
+#2 C:\www\aql\wp-content\themes\aqualine\functions.php(824): fw_get_db_post_option(10309, 'theme_block')
+#3 C:\www\aql\wp-content\themes\aqualine\inc\fw\theme\options\general-settings.php(6): aqualine_get_sections()
+#4 C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php(770): require('C:\\www\\aql\\wp-c...')
+#5 C:\www\aql\wp-content\plugins\unyson\framework\core\components\theme.php(78): fw_get_variables_from_file('C:\\www\\aql/wp-c...', A in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php on line 810
+
+2020-02-17T18:54:29+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to fw_extract_only_options() must be of the type array, null given, called in C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php on line 176 and defined in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php:810
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php(176): fw_extract_only_options(NULL)
+#1 C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php(228): FW_Db_Options_Model->get(10309, 'theme_block', NULL)
+#2 C:\www\aql\wp-content\themes\aqualine\functions.php(824): fw_get_db_post_option(10309, 'theme_block')
+#3 C:\www\aql\wp-content\themes\aqualine\inc\fw\theme\options\general-settings.php(6): aqualine_get_sections()
+#4 C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php(770): require('C:\\www\\aql\\wp-c...')
+#5 C:\www\aql\wp-content\plugins\unyson\framework\core\components\theme.php(78): fw_get_variables_from_file('C:\\www\\aql/wp-c...', A in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php on line 810
+
+2020-02-17T18:54:29+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to fw_extract_only_options() must be of the type array, null given, called in C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php on line 176 and defined in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php:810
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php(176): fw_extract_only_options(NULL)
+#1 C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php(228): FW_Db_Options_Model->get(10309, 'theme_block', NULL)
+#2 C:\www\aql\wp-content\themes\aqualine\functions.php(824): fw_get_db_post_option(10309, 'theme_block')
+#3 C:\www\aql\wp-content\themes\aqualine\inc\fw\theme\options\general-settings.php(6): aqualine_get_sections()
+#4 C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php(770): require('C:\\www\\aql\\wp-c...')
+#5 C:\www\aql\wp-content\plugins\unyson\framework\core\components\theme.php(78): fw_get_variables_from_file('C:\\www\\aql/wp-c...', A in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php on line 810
+
+2020-02-17T18:54:37+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to fw_extract_only_options() must be of the type array, null given, called in C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php on line 176 and defined in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php:810
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\unyson\framework\helpers\class-fw-db-options-model.php(176): fw_extract_only_options(NULL)
+#1 C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php(228): FW_Db_Options_Model->get(10309, 'theme_block', NULL)
+#2 C:\www\aql\wp-content\themes\aqualine\functions.php(824): fw_get_db_post_option(10309, 'theme_block')
+#3 C:\www\aql\wp-content\themes\aqualine\inc\fw\theme\options\general-settings.php(6): aqualine_get_sections()
+#4 C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php(770): require('C:\\www\\aql\\wp-c...')
+#5 C:\www\aql\wp-content\plugins\unyson\framework\core\components\theme.php(78): fw_get_variables_from_file('C:\\www\\aql/wp-c...', A in C:\www\aql\wp-content\plugins\unyson\framework\helpers\general.php on line 810
+
+2020-02-17T19:19:52+00:00 CRITICAL Cannot redeclare ltx_rewrite_flush() (previously declared in C:\www\aql\wp-content\plugins\lt-ext\post_types\post_types.php:35) in C:\www\aql\wp-content\plugins\lt-booking\post_types\post_types.php on line 25
+
+2020-02-17T19:19:53+00:00 CRITICAL Cannot redeclare ltx_rewrite_flush() (previously declared in C:\www\aql\wp-content\plugins\lt-ext\post_types\post_types.php:35) in C:\www\aql\wp-content\plugins\lt-booking\post_types\post_types.php on line 25
+
+2020-02-17T19:21:58+00:00 CRITICAL Cannot redeclare ltx_load_plugin_textdomain() (previously declared in C:\www\aql\wp-content\plugins\lt-ext\config.php:34) in C:\www\aql\wp-content\plugins\lt-booking\config.php on line 15
+
+2020-02-17T19:21:58+00:00 CRITICAL Cannot redeclare ltx_load_plugin_textdomain() (previously declared in C:\www\aql\wp-content\plugins\lt-ext\config.php:34) in C:\www\aql\wp-content\plugins\lt-booking\config.php on line 15
+
+2020-02-17T19:21:58+00:00 CRITICAL Cannot redeclare ltx_load_plugin_textdomain() (previously declared in C:\www\aql\wp-content\plugins\lt-ext\config.php:34) in C:\www\aql\wp-content\plugins\lt-booking\config.php on line 15
+
+2020-02-17T19:22:16+00:00 CRITICAL syntax error, unexpected '}' in C:\www\aql\wp-content\plugins\lt-booking\post_types\post_types.php on line 6
+
+2020-02-17T19:22:17+00:00 CRITICAL syntax error, unexpected '}' in C:\www\aql\wp-content\plugins\lt-booking\post_types\post_types.php on line 6
+
+2020-02-17T19:22:17+00:00 CRITICAL syntax error, unexpected '}' in C:\www\aql\wp-content\plugins\lt-booking\post_types\post_types.php on line 6
+
+2020-02-17T20:56:23+00:00 CRITICAL Uncaught Error: Call to undefined function ltbGetPluginUrl() in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:49
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\init.php(7): ltb_wp_enqueue('style', 'lt-booking', 'assets/css/lt-b...')
+#1 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_enqueue_admin_styles('post-new.php')
+#2 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\www\aql\wp-admin\admin-header.php(104): do_action('admin_enqueue_s...', 'post-new.php')
+#5 C:\www\aql\wp-admin\edit-form-advanced.php(419): require_once('C:\\www\\aql\\wp-a...')
+#6 C:\www\aql\wp-admin\post-new.php(75): include('C:\\www\\aql\\wp-a...')
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 49
+

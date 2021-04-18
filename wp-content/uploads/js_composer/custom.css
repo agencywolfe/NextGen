@@ -1,0 +1,89 @@
+form textarea, .form-row textarea, form input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]), .form-row input:not([type="submit"]):not([type="button"]):not([type="radio"]):not([type="checkbox"]) {
+    resize: none;
+}
+form textarea:focus{
+    outline:red!important;
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+}
+.ltx-before-after .ltx-wrap .ltx-ba-wrap .handle:before {
+    width: 4px;
+}
+.form-focus-border input:focus {
+    border: 1px solid rgba(0, 0, 0, 1) !important;
+}
+@media (min-width: 780px) and (max-width: 1199px){
+    .ltx-arrows-sides-outside .ltx-arrow-left, .ltx-arrows-sides-tiny .ltx-arrow-left, .ltx-arrows-sides .ltx-arrow-left, .ltx-arrows-sides-outside .ltx-arrow-right, .ltx-arrows-sides-tiny .ltx-arrow-right, .ltx-arrows-sides .ltx-arrow-right {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .ltx-before-after .ltx-arrows {
+        position: relative !important;
+        text-align: center !important;
+        bottom: -64px;
+        left: -30px;
+    }
+    .ltx-before-after .ltx-arrows .ltx-arrow-right{
+        margin: 0 0 0 -30px;
+    }
+    .ltx-before-after .ltx-arrows .ltx-arrow-left{
+        margin: 0 20px 0 -20px;
+    }
+    div.row div.col-md-8.div-ba{
+        width: 100% !important;
+        padding: 0 2%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1919px){
+    .ltx-arrows-sides-outside .ltx-arrow-left, .ltx-arrows-sides-tiny .ltx-arrow-left, .ltx-arrows-sides .ltx-arrow-left, .ltx-arrows-sides-outside .ltx-arrow-right, .ltx-arrows-sides-tiny .ltx-arrow-right, .ltx-arrows-sides .ltx-arrow-right {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .ltx-before-after .ltx-arrows {
+        position: relative !important;
+        text-align: center !important;
+        bottom: -40px;
+        left: -30px;
+    }
+    .ltx-before-after .ltx-arrows .ltx-arrow-right{
+        margin: 0 0 0 -60px;
+    }
+    .ltx-before-after .ltx-arrows .ltx-arrow-left{
+        margin: 0 20px 0 -20px;
+    }
+    div.row div.col-md-8.div-ba{
+        width: 100% !important;
+        /*padding: 0 8.5% !important;*/
+    }
+}
+@media (min-width: 1920px){
+    div.row div.col-md-8.div-ba{
+        width: 100%;
+        padding: 0 12.5%;
+    }
+    .ltx-arrows-sides-outside .ltx-arrow-left, .ltx-arrows-sides-tiny .ltx-arrow-left, .ltx-arrows-sides .ltx-arrow-left, .ltx-arrows-sides-outside .ltx-arrow-right, .ltx-arrows-sides-tiny .ltx-arrow-right, .ltx-arrows-sides .ltx-arrow-right {
+        position: relative;
+        display: inline-block;
+        text-align: center;
+        
+    }
+    .ltx-before-after .ltx-arrows {
+        position: relative !important;
+        text-align: center !important;
+        bottom: -10px;
+        left: -30px;
+    }
+    .ltx-before-after .ltx-arrows .ltx-arrow-right{
+        margin: 0 0 0 -80px;
+    }
+    .ltx-before-after .ltx-arrows .ltx-arrow-left{
+        margin: 0 20px 0 -1.25%;
+    }
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #a07418;
+    margin: 0 auto;
+}

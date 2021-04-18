@@ -1,0 +1,14 @@
+2020-02-26T16:29:10+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Post as array in C:\www\aql\wp-content\plugins\lt-booking\sections\step-01.php:42
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_01_shortcode(Array, '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(21): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=...')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking id=...')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.php( in C:\www\aql\wp-content\plugins\lt-booking\sections\step-01.php on line 42
+
+2020-02-26T21:52:11+00:00 CRITICAL syntax error, unexpected 'switch' (T_SWITCH) in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 188
+

@@ -1,0 +1,48 @@
+2020-02-27T15:12:23+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 179
+
+2020-02-27T15:12:24+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 179
+
+2020-02-27T15:12:35+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 178
+
+2020-02-27T15:12:44+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 163
+
+2020-02-27T15:13:00+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 178
+
+2020-02-27T15:39:59+00:00 CRITICAL Uncaught Exception: DateInterval::__construct(): Unknown or bad format (P1H) in C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php:32
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php(32): DateInterval->__construct('P1H')
+#1 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_04_shortcode(Array, '', 'lt-booking-step...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#4 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(24): do_shortcode('[lt-booking-ste...')
+#5 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=...')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_s in C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php on line 32
+
+2020-02-27T20:39:49+00:00 CRITICAL Uncaught TypeError: DateTime::__construct() expects parameter 1 to be string, object given in C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php:59
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php(59): DateTime->__construct(Object(DateTime))
+#1 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_04_shortcode(Array, '', 'lt-booking-step...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#4 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(24): do_shortcode('[lt-booking-ste...')
+#5 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=...')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\helpers\h in C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php on line 59
+
+2020-02-27T20:39:54+00:00 CRITICAL Uncaught TypeError: DateTime::__construct() expects parameter 1 to be string, object given in C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php:59
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php(59): DateTime->__construct(Object(DateTime))
+#1 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_04_shortcode(Array, '', 'lt-booking-step...')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#4 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(24): do_shortcode('[lt-booking-ste...')
+#5 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#6 [internal function]: do_shortcode_tag(Array)
+#7 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=...')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\helpers\h in C:\www\aql\wp-content\plugins\lt-booking\sections\step-04.php on line 59
+
+2020-02-27T21:10:24+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 238
+

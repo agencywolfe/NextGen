@@ -1,0 +1,184 @@
+2020-02-28T13:25:46+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 233
+
+2020-02-28T13:25:46+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 233
+
+2020-02-28T15:52:55+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 241
+
+2020-02-28T15:52:56+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 241
+
+2020-02-28T15:53:30+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\www\aql\wp-includes\class-wp-hook.php:197
+Stack trace:
+#0 C:\www\aql\wp-includes\plugin.php(140): WP_Hook->has_filter('query', Array)
+#1 C:\www\aql\wp-includes\wp-db.php(2109): has_filter('query', Array)
+#2 C:\www\aql\wp-includes\wp-db.php(2141): wpdb->placeholder_escape()
+#3 C:\www\aql\wp-includes\class-wp-hook.php(288): wpdb->remove_placeholder_escape('SELECT post_id,...')
+#4 C:\www\aql\wp-includes\plugin.php(206): WP_Hook->apply_filters('SELECT post_id,...', Array)
+#5 C:\www\aql\wp-includes\wp-db.php(1894): apply_filters('query', 'SELECT post_id,...')
+#6 C:\www\aql\wp-includes\wp-db.php(2647): wpdb->query('SELECT post_id,...')
+#7 C:\www\aql\wp-includes\meta.php(941): wpdb->get_results('SELECT post_id,...', 'ARRAY_A')
+#8 C:\www\aql\wp-includes\meta.php(525): update_meta_cache('post', Array)
+#9 C:\www\aql\wp-includes\post.php(2110): get_metadata('post', 13107, '_wp_page_templa...', true)
+#10 C:\www\aql\wp-includes\class-wp-post. in C:\www\aql\wp-includes\class-wp-hook.php on line 197
+
+2020-02-28T15:54:07+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\www\aql\wp-includes\class-wp-hook.php:197
+Stack trace:
+#0 C:\www\aql\wp-includes\plugin.php(140): WP_Hook->has_filter('query', Array)
+#1 C:\www\aql\wp-includes\wp-db.php(2109): has_filter('query', Array)
+#2 C:\www\aql\wp-includes\wp-db.php(2141): wpdb->placeholder_escape()
+#3 C:\www\aql\wp-includes\class-wp-hook.php(288): wpdb->remove_placeholder_escape('SELECT post_id,...')
+#4 C:\www\aql\wp-includes\plugin.php(206): WP_Hook->apply_filters('SELECT post_id,...', Array)
+#5 C:\www\aql\wp-includes\wp-db.php(1894): apply_filters('query', 'SELECT post_id,...')
+#6 C:\www\aql\wp-includes\wp-db.php(2647): wpdb->query('SELECT post_id,...')
+#7 C:\www\aql\wp-includes\meta.php(941): wpdb->get_results('SELECT post_id,...', 'ARRAY_A')
+#8 C:\www\aql\wp-includes\meta.php(525): update_meta_cache('post', Array)
+#9 C:\www\aql\wp-includes\post.php(2110): get_metadata('post', 13107, '_wp_page_templa...', true)
+#10 C:\www\aql\wp-includes\class-wp-post. in C:\www\aql\wp-includes\class-wp-hook.php on line 197
+
+2020-02-28T15:59:37+00:00 CRITICAL Uncaught Error: Maximum function nesting level of '256' reached, aborting! in C:\www\aql\wp-includes\class-wp-hook.php:197
+Stack trace:
+#0 C:\www\aql\wp-includes\plugin.php(140): WP_Hook->has_filter('query', Array)
+#1 C:\www\aql\wp-includes\wp-db.php(2109): has_filter('query', Array)
+#2 C:\www\aql\wp-includes\wp-db.php(2141): wpdb->placeholder_escape()
+#3 C:\www\aql\wp-includes\class-wp-hook.php(288): wpdb->remove_placeholder_escape('SELECT post_id,...')
+#4 C:\www\aql\wp-includes\plugin.php(206): WP_Hook->apply_filters('SELECT post_id,...', Array)
+#5 C:\www\aql\wp-includes\wp-db.php(1894): apply_filters('query', 'SELECT post_id,...')
+#6 C:\www\aql\wp-includes\wp-db.php(2647): wpdb->query('SELECT post_id,...')
+#7 C:\www\aql\wp-includes\meta.php(941): wpdb->get_results('SELECT post_id,...', 'ARRAY_A')
+#8 C:\www\aql\wp-includes\meta.php(525): update_meta_cache('post', Array)
+#9 C:\www\aql\wp-includes\post.php(2110): get_metadata('post', 13107, '_wp_page_templa...', true)
+#10 C:\www\aql\wp-includes\class-wp-post. in C:\www\aql\wp-includes\class-wp-hook.php on line 197
+
+2020-02-28T18:32:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function fw_set_db_post_option(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 593 and exactly 3 expected in C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php:238
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(593): fw_set_db_post_option(13121)
+#1 C:\www\aql\wp-content\plugins\lt-booking\inc\email-template.php(5): ltb_parse_email_fields(13121, Array, 'Your booking {o...')
+#2 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(563): require_once('C:\\www\\aql\\wp-c...')
+#3 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#4 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php on line 238
+
+2020-02-28T18:32:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function fw_set_db_post_option(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 593 and exactly 3 expected in C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php:238
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(593): fw_set_db_post_option(13122)
+#1 C:\www\aql\wp-content\plugins\lt-booking\inc\email-template.php(5): ltb_parse_email_fields(13122, Array, 'Your booking {o...')
+#2 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(563): require_once('C:\\www\\aql\\wp-c...')
+#3 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#4 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#5 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#6 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\unyson\framework\helpers\database.php on line 238
+
+2020-02-28T19:31:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_price(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 626 and exactly 2 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:73
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(626): ltb_the_price('22')
+#1 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(600): ltb_order_info(Array, Array)
+#2 C:\www\aql\wp-content\plugins\lt-booking\inc\email-template.php(5): ltb_parse_email_fields(13127, Array, 'Your booking {o...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(563): require_once('C:\\www\\aql\\wp-c...')
+#4 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#5 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#8 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 73
+
+2020-02-28T19:31:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_price(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 626 and exactly 2 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:73
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(626): ltb_the_price('22')
+#1 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(600): ltb_order_info(Array, Array)
+#2 C:\www\aql\wp-content\plugins\lt-booking\inc\email-template.php(5): ltb_parse_email_fields(13128, Array, 'Your booking {o...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(563): require_once('C:\\www\\aql\\wp-c...')
+#4 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#5 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#8 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 73
+
+2020-02-28T19:32:35+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_price_simple(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 644 and exactly 2 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:91
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(644): ltb_the_price_simple('22')
+#1 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(618): ltb_order_info(Array, Array)
+#2 C:\www\aql\wp-content\plugins\lt-booking\inc\email-template.php(5): ltb_parse_email_fields(13129, Array, 'Your booking {o...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(581): require_once('C:\\www\\aql\\wp-c...')
+#4 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#5 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#8 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 91
+
+2020-02-28T19:32:54+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_the_price_simple(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 644 and exactly 2 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:91
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(644): ltb_the_price_simple('22')
+#1 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(618): ltb_order_info(Array, Array)
+#2 C:\www\aql\wp-content\plugins\lt-booking\inc\email-template.php(5): ltb_parse_email_fields(13130, Array, 'Your booking {o...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(581): require_once('C:\\www\\aql\\wp-c...')
+#4 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#5 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#6 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#7 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#8 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 91
+
+2020-02-28T19:33:43+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_booking_save_postdata(), 1 passed in C:\www\aql\wp-includes\class-wp-hook.php on line 290 and exactly 3 expected in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php:232
+Stack trace:
+#0 C:\www\aql\wp-includes\class-wp-hook.php(290): ltb_booking_save_postdata(13100)
+#1 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\www\aql\wp-includes\post.php(4109): do_action('save_post_lt-bo...', 13100, Object(WP_Post), true)
+#4 C:\www\aql\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 C:\www\aql\wp-includes\post.php(3149): wp_update_post(Array)
+#6 C:\www\aql\wp-admin\edit.php(119): wp_trash_post(13100)
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 232
+
+2020-02-28T19:34:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_booking_save_postdata(), 1 passed in C:\www\aql\wp-includes\class-wp-hook.php on line 290 and exactly 3 expected in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php:232
+Stack trace:
+#0 C:\www\aql\wp-includes\class-wp-hook.php(290): ltb_booking_save_postdata(13130)
+#1 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\www\aql\wp-includes\post.php(4109): do_action('save_post_lt-bo...', 13130, Object(WP_Post), true)
+#4 C:\www\aql\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 C:\www\aql\wp-includes\post.php(3149): wp_update_post(Array)
+#6 C:\www\aql\wp-admin\edit.php(119): wp_trash_post(13130)
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 232
+
+2020-02-28T19:36:49+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_booking_save_postdata(), 1 passed in C:\www\aql\wp-includes\class-wp-hook.php on line 290 and exactly 3 expected in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php:232
+Stack trace:
+#0 C:\www\aql\wp-includes\class-wp-hook.php(290): ltb_booking_save_postdata(13127)
+#1 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\www\aql\wp-includes\post.php(4109): do_action('save_post_lt-bo...', 13127, Object(WP_Post), true)
+#4 C:\www\aql\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 C:\www\aql\wp-includes\post.php(3149): wp_update_post(Array)
+#6 C:\www\aql\wp-admin\edit.php(119): wp_trash_post(13127)
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 232
+
+2020-02-28T19:38:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_booking_save_postdata(), 1 passed in C:\www\aql\wp-includes\class-wp-hook.php on line 290 and exactly 3 expected in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php:232
+Stack trace:
+#0 C:\www\aql\wp-includes\class-wp-hook.php(290): ltb_booking_save_postdata(13126)
+#1 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\www\aql\wp-includes\post.php(4109): do_action('save_post_lt-bo...', 13126, Object(WP_Post), true)
+#4 C:\www\aql\wp-includes\post.php(4197): wp_insert_post(Array, false)
+#5 C:\www\aql\wp-includes\post.php(3149): wp_update_post(Array)
+#6 C:\www\aql\wp-admin\edit.php(119): wp_trash_post(13126)
+#7 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\post_types\booking.php on line 232
+
+2020-02-28T21:56:58+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function ltb_parse_email_fields(), 1 passed in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 589 and at least 2 expected in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:619
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php(589): ltb_parse_email_fields('New booking {or...')
+#1 C:\www\aql\wp-includes\class-wp-hook.php(288): ltb_make_booking('')
+#2 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#3 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#4 C:\www\aql\wp-admin\admin-ajax.php(175): do_action('wp_ajax_make_bo...')
+#5 {main}
+  thrown in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 619
+

@@ -1,0 +1,60 @@
+2020-02-20T17:02:14+00:00 CRITICAL syntax error, unexpected '"value"' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 77
+
+2020-02-20T17:28:14+00:00 CRITICAL Uncaught Error: Call to undefined function ltb_section_end() in C:\www\aql\wp-content\plugins\lt-booking\sections\step-01.php:56
+Stack trace:
+#0 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_step_01_shortcode(Array, '', 'lt-booking-step...')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking-ste...')
+#3 C:\www\aql\wp-content\plugins\lt-booking\sections\sections.php(21): do_shortcode('[lt-booking-ste...')
+#4 C:\www\aql\wp-includes\shortcodes.php(325): lt_booking_shortcode(Array, '', 'lt-booking')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 C:\www\aql\wp-includes\shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(lt\\-bo...', 'do_shortcode_ta...', '[lt-booking id=...')
+#7 C:\www\aql\wp-content\plugins\js_composer\include\helpers\helpers.php(240): do_shortcode('[lt-booking id=...')
+#8 C:\www\aql\wp-content\plugins\js_composer\include\templates\shortcodes\vc_raw_html.ph in C:\www\aql\wp-content\plugins\lt-booking\sections\step-01.php on line 56
+
+2020-02-20T19:21:45+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 68
+
+2020-02-20T19:21:45+00:00 CRITICAL syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ',' or ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 68
+
+2020-02-20T19:22:12+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 77
+
+2020-02-20T19:23:51+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 77
+
+2020-02-20T19:23:51+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 77
+
+2020-02-20T19:23:51+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 77
+
+2020-02-20T19:24:13+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 77
+
+2020-02-20T19:59:17+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 78
+
+2020-02-20T19:59:17+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 78
+
+2020-02-20T20:18:39+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 117
+
+2020-02-20T20:18:40+00:00 CRITICAL syntax error, unexpected ')' in C:\www\aql\wp-content\plugins\lt-booking\post_types\points.php on line 117
+
+2020-02-20T20:39:24+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::post_title() in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:224
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\post_types\cars.php(44): ltbGetPosts('lt-booking-tari...')
+#1 C:\www\aql\wp-includes\class-wp-hook.php(288): {closure}(Array)
+#2 C:\www\aql\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\www\aql\wp-content\plugins\unyson\framework\core\components\theme.php(119): apply_filters('fw_post_options...', Array)
+#4 C:\www\aql\wp-content\plugins\unyson\framework\core\components\backend.php(662): _FW_Component_Theme->get_post_options('lt-booking-car')
+#5 C:\www\aql\wp-includes\class-wp-hook.php(288): _FW_Component_Backend->_action_create_post_meta_boxes('lt-booking-car', Object(WP_Post))
+#6 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\www\aql\wp-admin\includes\meta-boxes.php(1549): do_action('add_meta in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 224
+
+2020-02-20T20:42:01+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Post::ID() in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php:225
+Stack trace:
+#0 C:\www\aql\wp-content\plugins\lt-booking\post_types\cars.php(44): ltbGetPosts('lt-booking-tari...')
+#1 C:\www\aql\wp-includes\class-wp-hook.php(288): {closure}(Array)
+#2 C:\www\aql\wp-includes\plugin.php(206): WP_Hook->apply_filters(Array, Array)
+#3 C:\www\aql\wp-content\plugins\unyson\framework\core\components\theme.php(119): apply_filters('fw_post_options...', Array)
+#4 C:\www\aql\wp-content\plugins\unyson\framework\core\components\backend.php(662): _FW_Component_Theme->get_post_options('lt-booking-car')
+#5 C:\www\aql\wp-includes\class-wp-hook.php(288): _FW_Component_Backend->_action_create_post_meta_boxes('lt-booking-car', Object(WP_Post))
+#6 C:\www\aql\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 C:\www\aql\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\www\aql\wp-admin\includes\meta-boxes.php(1549): do_action('add_meta_boxes', in C:\www\aql\wp-content\plugins\lt-booking\inc\functions.php on line 225
+
